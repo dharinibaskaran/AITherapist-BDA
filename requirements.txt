@@ -5,7 +5,7 @@ Werkzeug==2.3.7; python_version < '3.7'
 gunicorn==22.0.0
 Flask-Cors==3.0.0 
 Flask-JWT-Extended==4.3.1
-Flask-Migrate==3.1.1
+Flask-Migrate
 Flask-SQLAlchemy==3.0.0
 requests==2.26.0
 beautifulsoup4==4.10.0
