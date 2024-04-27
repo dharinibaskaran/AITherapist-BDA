@@ -1,7 +1,5 @@
-Flask; python_version > '3.6'
-Flask==2.3.3; python_version < '3.7'
-Werkzeug==3.0.1; python_version > '3.6'
-Werkzeug==2.3.7; python_version < '3.7'
+Flask==2.0.4
+Werkzeug==2.0.2
 gunicorn==22.0.0
 Flask-Cors
 Flask-JWT-Extended
