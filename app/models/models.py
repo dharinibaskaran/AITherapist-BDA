@@ -28,13 +28,13 @@ class User(db.Model):
     
     stripetoken = db.Column(String(255), nullable=True)
     
-class Sentiment(db.Model):
-    __tablename__ = 'sentiment'
-    id = db.Column(db.Integer, primary_key=True)
-    user_id = db.Column(db.Integer, db.ForeignKey('users.id'), nullable=False)
-    timestamp = db.Column(db.DateTime, default=db.func.current_timestamp())
-    tag_name = db.Column(String(20), nullable=True)
-    confidence = db.Column(db.Double, nullable=True)
+# class Sentiment(db.Model):
+#     __tablename__ = 'sentiment'
+#     id = db.Column(db.Integer, primary_key=True)
+#     user_id = db.Column(db.Integer, db.ForeignKey('users.id'), nullable=False)
+#     timestamp = db.Column(db.DateTime, default=db.func.current_timestamp())
+#     tag_name = db.Column(String(20), nullable=True)
+#     confidence = db.Column(db.Double, nullable=True)
     
 
 class SearchHistory(db.Model):
